@@ -1,18 +1,12 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seu Resumo Semanal</title>
-    <style>
-      body {
-        font-family: "Arial", sans-serif;
-        background-color: white;
-        margin: 0;
-        padding: 0;
-        color: #fff;
-      }
-      .email-container {
+  </head>
+  <body>
+    <div
+      style="
         max-width: 500px;
         margin: 40px auto;
         background-color: #ffffff;
@@ -21,115 +15,80 @@
         padding: 50px 40px;
         margin: 50px auto;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      }
-      .content {
-        /* padding: 30px; */
-      }
-      .section {
-        margin-bottom: 20px;
-        padding: 20px;
-        background-color: #F9FAFB;
-        border-radius: 8px;
-      }
-      .section h2 {
-        font-size: 18px;
-        margin-bottom: 10px;
-        color: #202f62;
-      }
-      .section p {
-        font-size: 16px;
-        color: #9ca3af;
-      }
-      .cta-button {
-        display: block;
-        background-color: #202f62;
-        color: white;
-        text-align: center;
-        padding: 15px;
-        font-weight: bold;
-        text-decoration: none;
-        border-radius: 30px;
-        margin: 20px auto;
-        width: 80%;
-        transition: 0.3s;
-      }
-      .cta-button:hover {
-        background-color: #131c3c;
-      }
-      .footer {
-        text-align: center;
-        font-size: 14px;
-        color: #d1d5db;
-        padding: 20px;
-        background-color: #0f162d;
-      }
-      .footer a {
-        color: #bdbdbd;
-        text-decoration: none;
-      }
-      .footer-wrapper {
-        font-size: 12px;
-        color: #aaa;
-        text-align: center;
-        margin-top: 40px;
-        margin-bottom: 20px;
-      }
-      .app-download img {
-        width: 150px;
-        margin: 0 10px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="email-container">
-      <div class="content">
-        <div class="section">
+      "
+    >
+      <div>
+        <div
+          style="
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f9fafb;
+            border-radius: 8px;
+          "
+        >
           <div style="display: flex; align-items: center">
             <img
-              src="../assets/icons/group-user.png"
+              src="https://icons.iconarchive.com/icons/custom-icon-design/silky-line-user/512/users-icon.png"
               alt="Baixar na App Store"
               style="margin-right: 8px"
+              width="50"
             />
-            <h2>Leads Disponíveis</h2>
+            <h2 style="margin-bottom: 10px">Leads Disponíveis</h2>
           </div>
 
-          <p>
+          <p style="font-size: 16px; color: #9ca3af">
             Atualmente, existem <strong>X novos leads</strong> compatíveis com a
             sua BU. Este número será atualizado conforme novos médicos entrem na
             plataforma.
           </p>
         </div>
 
-        <div class="section">
+        <div
+          style="
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f9fafb;
+            border-radius: 8px;
+          "
+        >
           <div style="display: flex; align-items: center">
             <img
-              src="../assets/icons/user.png"
+              src="https://icons.iconarchive.com/icons/custom-icon-design/silky-line-user/256/users2-3-icon.png"
               alt="user group icon"
               style="margin-right: 8px"
+              width="50"
             />
-            <h2>Seus Leads Criados</h2>
+            <h2 style="margin-bottom: 10px">Seus Leads Criados</h2>
           </div>
-          <p>
+          <p style="font-size: 16px; color: #9ca3af">
             Você gerou <strong>10 novos leads</strong> nesta semana! Continue
             engajado para maximizar suas oportunidades.
           </p>
         </div>
 
-        <div class="section">
+        <div
+          style="
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f9fafb;
+            border-radius: 8px;
+          "
+        >
           <div style="display: flex; align-items: center">
             <img
-              src="../assets/icons/location.png"
+              src="https://icons.veryicon.com/png/o/business/blue-2/location-18.png"
               alt="map icon"
               style="margin-right: 8px"
+              width="50"
             />
-            <h2>Mapa</h2>
+            <h2 style="color: #202f62">Mapa</h2>
           </div>
-          <p>
+          <p style="font-size: 16px; color: #9ca3af">
             Confira as regiões com maior número de novos médicos disponíveis
             dentro da sua BU.
           </p>
           <img
-            src="https://via.placeholder.com/500x200"
+            src="#"
             alt="Mapa de leads"
             width="100%"
             style="border-radius: 8px"
@@ -138,45 +97,37 @@
 
         <a
           href="https://docmining-dev.dopster.io/dashboard/my-leads/"
-          class="cta-button"
+          style="
+            display: block;
+            background-color: #202f62;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 30px;
+            margin: 20px auto;
+            width: 80%;
+            transition: 0.3s;
+          "
           >Ver Meus Leads</a
         >
       </div>
 
-      <!-- <div class="footer">
-        <p>
-          Precisa de ajuda?
-          <a href="https://www.sualink.com.br/ajuda">Acesse nossa central</a>
-        </p>
-        <p>
-          Se não quiser mais receber este tipo de e-mail, você pode
-          <a href="https://www.sualink.com.br/desinscrever"
-            >cancelar sua inscrição</a
-          >.
-        </p>
-      </div> -->
-
-      <div class="footer-wrapper">
-        <p>
+      <div
+        style="
+          font-size: 12px;
+          color: #aaa;
+          text-align: center;
+          margin-top: 40px;
+          margin-bottom: 20px;
+        "
+      >
+        <p style="font-size: 16px; color: #9ca3af">
           Para mais informações, entre em contato
-          <a href="marina.alencar@dopster.io" style="color: #202f62">aqui</a
-          >.
+          <a href="marina.alencar@dopster.io" style="color: #202f62">aqui</a>.
         </p>
         <p>&copy; 2025 DocMining</p>
-        <!-- <div class="app-download">
-          <a href="#" target="_blank">
-            <img
-              src="https://mygcsetutor.co.uk/wp-content/uploads/2022/12/Google_Play_Store_badge_EN.svg.png"
-              alt="Baixar na App Store"
-            />
-          </a>
-          <a href="#" target="_blank">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png"
-              alt="Baixar na Google Play"
-            />
-          </a>
-        </div> -->
       </div>
     </div>
   </body>
